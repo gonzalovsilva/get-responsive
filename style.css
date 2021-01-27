@@ -256,24 +256,23 @@ footer h1 {
 }
 
 /* for tablet screens */
-@media only screen and (min-width: 460px)and (max-width: 768px) {
+@media only screen and (min-width: 460px)and (max-width: 900px) {
     body {
         margin: 0;
         overflow-x: hidden;
     }
 
+    #bloc_page {
+        margin-top: 10px;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
     header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100vw;
     }
-
-    #bloc_page {
-        margin-top: 10px;
-        width: 100vw;
-    }
-
     nav ul {
         padding: 0;
     }
@@ -372,7 +371,13 @@ footer h1 {
 @media only screen and (max-width: 460px) {
     body {
         margin: 0;
-        overflow-x: hidden;
+    }
+
+    #bloc_page {
+        margin-top: 10px;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     header {
@@ -380,11 +385,9 @@ footer h1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100vw;
     }
 
     nav {
-        width: 100%;
         margin-bottom: 20px;
         font-size: 1.3em;
         text-align: center;
@@ -406,11 +409,6 @@ footer h1 {
 
     nav li {
         margin: 0;
-    }
-
-    #bloc_page {
-        margin-top: 10px;
-        width: 100vw;
     }
 
 
@@ -481,5 +479,5 @@ footer h1 {
     #listes_amis ul {
         text-align: left;
     }
-
+    /* With the help of my loyal friend @rohmerpauline :) */
 }
